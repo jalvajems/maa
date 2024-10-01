@@ -1,0 +1,520 @@
+body{
+margin: 0;
+}
+.header{
+    display: flex;
+ /*   position: fixed;*/
+    background-color: white;
+    flex-direction: column;
+    position: fixed;
+
+}
+.navflex{
+    display: flex;
+
+}
+.logo:hover{
+    display: flex;
+    cursor: pointer;
+    
+}
+.clickhere{
+    
+    padding-left: 600px;
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+    color: red;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+.clicktext{
+    margin-left: -450px;
+    text-decoration: none;
+    color: red;
+}
+.shopbtn{
+    position: fixed;
+    color: #0068b3;
+    height: 33px;
+    width: 50px;
+    background-color: white;
+    border-radius: 30px;
+    border-style:solid;
+    border-width: 1.5px;
+    border-color: red;
+    padding-left: 5px;
+    margin-left: 137px;
+    position: relative;
+    top: 15px;
+    
+
+
+}
+.shopbtn:hover{
+    color: white;
+    background-color: #0068b3;
+cursor: pointer;
+}
+
+.search-box{
+ height: 45px;  
+ width: 60px; 
+border-top: 0px;
+border-left: 0px;
+border-right: 0px;
+border-bottom: -1px;
+border-width: .1px;
+border-color: #cbcbcb;
+margin-left: 20px;
+position: relative;
+top: 10px;
+margin-right: 135px;
+
+}
+.search-box:hover{
+    border-style: none;
+cursor: pointer;
+}
+.search-box:focus{
+    outline: none;
+    
+}
+.search-box::placeholder{
+color: #0068b3;
+font-size: 9px;
+}
+.side-bar{
+    display: flex;
+    flex-direction: column;
+}
+.menu-opt{
+    display: flex;
+    margin-left: 620px;
+}
+.opt{
+    text-decoration: none;
+    color: #0068b3;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 12px;
+
+}
+.opt:hover{
+    background-color: #c8c8c8;
+    cursor: pointer;
+}
+.mainbody{
+    margin-top: 30px;
+}
+.image1{
+    width: 100%;
+    margin-top: 100px;
+    
+}
+.backtobrand{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-family: "Work Sans", sans-serif,thin;
+    position: relative;
+    top: 65px;
+    left: 150px;
+}
+.backtobrand:hover{
+color: #0068b3;
+}
+.back-icon{
+width: 10px;
+position: relative;
+top: 66px;
+left: 145px;
+
+}
+.image2{
+    margin-top: 85px;
+   margin-left: 545px;
+   width: 160px;
+}
+.h1div{
+  display  : flex;
+    align-content: center;
+    margin-left: 155px;
+    margin-right: 140px;
+}
+.h1{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+color: rgb(107, 0, 0);  
+font-size: 40px;
+}
+.pdiv{
+    display  : flex;
+    align-content: center;
+    margin-left: 155px;
+    margin-right: 140px;
+    margin-top: -20px;
+}
+.para{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+    
+}
+.h2div{
+    display  : flex;
+    align-content: center;
+    margin-left: 540px;
+    margin-right: 140px;
+    margin-top:25px;
+}
+.h2{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    
+}
+.hr1{
+    margin-top:-1px;
+    margin-left: 585px;
+    width: 50px;
+    height: 8px;
+    background-color:#ee195c;
+}
+.productimgline1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 145px;
+
+}
+.boxflex{
+    display: flex;
+}
+.box1{
+   
+
+    background-color:  #ddccb3;
+    height: 450px;
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.box-text1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    margin-left: 110px;
+    
+
+}
+.productimg1{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.box1:hover{
+
+background-color:  #f34f78;
+
+}
+.box2{
+   
+
+    background-color:  #ead283;
+    height: 450px;
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.box-text2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    margin-left: 110px;
+    
+
+}
+.productimg2{
+    width: 145px;
+    margin-top: 35px;
+    margin-left: 85px;
+}
+.box2:hover{
+
+    background-color:  #f34f78;
+    
+    }
+
+.box3{
+   
+
+    background-color:  #e8d020;
+    height: 450px;
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.box-text3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    margin-left: 110px;
+    
+
+}
+.productimg3{
+    width: 200px;
+    margin-top: 25px;
+    margin-left: 65px;
+}
+
+.box3:hover{
+
+    background-color:  #f34f78;
+    
+    }
+    /*2nd productline*/
+
+    .productimgline2{
+        display: flex;
+        flex-direction: row;
+        margin-left: 145px;
+        margin-top: 10px;
+    
+    }
+    .boxflex{
+        display: flex;
+    }
+    .box4{
+       
+    
+        background-color:  #eda07d;
+        height: 450px;
+        width: 300px;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+    .box-text4{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        margin-left: 110px;
+        
+    
+    }
+    .productimg4{
+        width: 150px;
+        margin-top: 0px;
+        margin-left: 75px;
+    }
+    .box4:hover{
+    
+    background-color:  #f34f78;
+    
+    }
+    .box5{
+       
+    
+        background-color:  #eeee22;
+        height: 450px;
+        width: 300px;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+    .box-text5{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        margin-left: 110px;
+        
+    
+    }
+    .productimg5{
+        width: 145px;
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+    .box5:hover{
+    
+        background-color:  #f34f78;
+        
+        }
+    
+    .box6{
+       
+    
+        background-color:  #f2b9ae;
+        height: 450px;
+        width: 300px;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+    .box-text6{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        margin-left: 110px;
+        
+    
+    }
+    .productimg6{
+        width: 200px;
+        margin-top: 20px;
+        margin-left: 55px;
+    }
+    
+    .box6:hover{
+    
+        background-color:  #f34f78;
+        
+        }
+
+        .backtobrand2{
+            text-decoration: none;
+            color: black;
+            font-size: 12px;
+            font-family: "Work Sans", sans-serif,thin;
+            position: relative;
+            top: 10px;
+            left: 1020px;
+        }
+        .backtobrand2:hover{
+        color: #0068b3;
+        }
+        .back-icon2{
+        width: 10px;
+        position: relative;
+        top: 10px;
+        left: 1015px;
+        
+        }
+        .footer{
+            background-color: black;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+        }
+        .firstlinefooter{
+            display: flex;
+            margin-top: 10px;
+            margin-left: 150px;
+
+
+        }
+        .list1, .list2, .list3 ,.list4, .list5, .list6{
+            color: rgb(171, 169, 169);
+            list-style: none;
+            line-height: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 13px;
+        }
+        .list6{
+            margin-left: 80px;
+        }
+        .h3{
+            display: flex;
+            margin-left: 180px;
+            margin-top:180px ;
+        }
+        .h3-1,.h3-2,.h3-3,.h3-4{
+            color: rgb(171, 169, 169);
+            line-height: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 13px;
+            margin-top: px;
+            margin-left: 10px;
+        }
+        .h3-2{
+            margin-left: 45px;
+        
+        }
+        .h3-3{
+            margin-left: 320px;
+        
+        }
+         .h3-4{
+            margin-left: 150px;
+          
+        }
+       
+        .hr2{
+            background-color: #0068b3;
+            height: 2px;
+            border-style: none;
+            width: 30px;
+
+        }
+        .secindlinefooter{
+            display: flex;
+            color: rgb(171, 169, 169);
+            line-height: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 10px;
+            margin-top: px;
+            margin-left: 180px;
+        }
+        .h3second{
+            display: flex;
+            color: rgb(171, 169, 169);
+            line-height: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 10px; 
+        margin-left: 180px; 
+       }
+
+        .h3-6{
+            margin-left:140px;
+        }
+        .h3-7{
+            margin-left:140px;
+        }
+        .list7,.list8,.list9{
+            color: rgb(171, 169, 169);
+            line-height: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 13px;
+            margin-top: px;
+            margin-left: 10px;
+            list-style: none;
+        }
+        .list8{
+            margin-left:70px;
+        }
+        .list9{
+            margin-left:75px;
+        }
+        .thirdlinefooter{
+            
+            margin-left: 150px;
+            color: rgb(171, 169, 169);
+            line-height: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 10px; 
+
+        }
+        .hr3{
+           background-color: rgb(104, 104, 104);
+            height: 1px;
+            border-style: none;
+            width: 870px;
+            margin-left: -1px;
+
+        }
+        .lastpara{
+            margin-left: 150px;
+            color: rgb(171, 169, 169);
+            line-height: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 10px; 
+            margin-top: 0px;
+
+        }
+
+        
